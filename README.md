@@ -1,5 +1,7 @@
 # leagueStats
-A Google Scripts script which collects data from the Riot API and uploads the data to the sheet.
+A Google Scripts script which collects data from the Riot API and uploads the data to the sheet. Sometimes the API will limit data collection rates, so it may only offer 30 or 40 rows, even if 100 were requested.
+
+
 
 Under the "Configuration" sheet:
 
@@ -11,5 +13,3 @@ Under the "Configuration" sheet:
   
   queueType = The queue that will be collected (Note: Only Solo/Duo is collected currently, changing it does nothing)
   
-
-Sometimes the API will limit data collection rates, so it may only offer 30 or 40 rows, even if 100 were requested.
